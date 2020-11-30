@@ -25,7 +25,7 @@
     "url": "git+https://github.com/terziev1/svelte-copy-url-button.git"
   },
   "description": "Svelte based button component that copies the current url.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "dependencies": {},
   "author": "Kostadin Terziev",
   "license": "MIT"

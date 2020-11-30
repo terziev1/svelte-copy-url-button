@@ -34,7 +34,7 @@ import SvelteCopyUrlButton from 'svelte-copy-url-button';
   size="14"
   defaultText="Copy url"
   copiedText="Copied!"
-  icon="false"
+  icon="{false}"
   timeout="1000"
 />
 

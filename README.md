@@ -11,13 +11,13 @@ Simple Svelte based button that copies the current url.
 For Sapper you need to install the package as a dev module to so it gets compiled.  If you install it as a runtiome dependency you will 500 errors on the server side.  This is explained [here](https://github.com/sveltejs/sapper-template#using-external-components).
 
 ```bash
-$ npm i -D svelte-copy-url
+$ npm i -D svelte-copy-url-button
 ```
 
 ### PureJS
 
 ```bash
-$ npm i --save svelte-copy-url
+$ npm i --save svelte-copy-url-button
 ```
 
 

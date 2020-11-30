@@ -1,7 +1,6 @@
-# svelte-copy-url 
+# svelte-copy-url-button
 
 Simple Svelte based button that copies the current url. 
-B
 
 ## Installation
 
@@ -30,6 +29,12 @@ Basic usage from svelte looks like this:
 import SvelteCopyUrl from 'svelte-copy-url-button';
 
 </script>
-<SvelteCopyUrl class="customClassName" size="14" defaultText="Copy url" copiedText="Copied!" icon="false" timeout="1000" />
+<SvelteCopyUrl
+class="customClassName"
+size="14"
+defaultText="Copy url"
+copiedText="Copied!"
+icon="false"
+timeout="1000" />
 
 ```

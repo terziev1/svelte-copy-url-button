@@ -26,10 +26,10 @@ Basic usage from svelte looks like this:
 
 ```html
 <script>
-import SvelteCopyUrl from 'svelte-copy-url-button';
+import SvelteCopyUrlButton from 'svelte-copy-url-button';
 
 </script>
-<SvelteCopyUrl
+<SvelteCopyUrlButton
   class="customClassName"
   size="14"
   defaultText="Copy url"

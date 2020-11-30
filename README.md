@@ -30,11 +30,12 @@ import SvelteCopyUrl from 'svelte-copy-url-button';
 
 </script>
 <SvelteCopyUrl
-class="customClassName"
-size="14"
-defaultText="Copy url"
-copiedText="Copied!"
-icon="false"
-timeout="1000" />
+  class="customClassName"
+  size="14"
+  defaultText="Copy url"
+  copiedText="Copied!"
+  icon="false"
+  timeout="1000"
+/>
 
 ```

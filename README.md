@@ -29,6 +29,8 @@ Basic usage from svelte looks like this:
 ```html
 <script>
 import SvelteCopyUrlButton from 'svelte-copy-url-button';
+// If url is not passed it will copy the url of the current page
+let url = "https://svelte-copy-url-button.netlify.app/"
 </script>
 
 <SvelteCopyUrlButton
@@ -38,6 +40,7 @@ import SvelteCopyUrlButton from 'svelte-copy-url-button';
   copiedText="Copied!"
   icon="{false}"
   timeout="1000"
+  url="{url}"
 />
 
 ```

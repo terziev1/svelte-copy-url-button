@@ -5,7 +5,8 @@ function copy() {
     return;
   }
   const placeholder = document.createElement("p");
-  placeholder.textContent = window.location.href;
+  placeholder.textContent = url ? url : window.location.href;
+  placeholder.style.cssText = "z-index:-9;position:relative";
   document.body.appendChild(placeholder);
 
   const range = document.createRange();
@@ -13,7 +14,6 @@ function copy() {
   range.setEndAfter(placeholder);
 
   const selection = window.getSelection();
-  // First clear, in case the user already selected some other text
   selection.removeAllRanges();
   selection.addRange(range);
 
@@ -32,6 +32,7 @@ export let size = 14;
 export let icon = false;
 export let timeout = 1000;
 export let styled = true;
+export let url;
 </script>
 
 <button

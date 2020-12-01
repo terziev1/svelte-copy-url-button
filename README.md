@@ -2,6 +2,8 @@
 
 Simple Svelte based button that copies the current url. 
 
+[![version](https://img.shields.io/npm/v/svelte-copy-url-button.svg?style=flat-square)](http://npm.im/svelte-copy-url-button)
+
 ## Installation
 
 ### Using npm

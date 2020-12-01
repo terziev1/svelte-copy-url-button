@@ -41,3 +41,6 @@ import SvelteCopyUrlButton from 'svelte-copy-url-button';
 />
 
 ```
+## [Demo](https://svelte-copy-url-button.netlify.app/)
+
+

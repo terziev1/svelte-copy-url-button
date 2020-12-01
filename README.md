@@ -44,6 +44,7 @@ let url = "https://svelte-copy-url-button.netlify.app/"
 />
 
 ```
-## [Demo](https://svelte-copy-url-button.netlify.app/)
+## Demo
+Demo with some of the options can be viewed [here](https://svelte-copy-url-button.netlify.app/)
 
 
